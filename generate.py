@@ -10,7 +10,7 @@ import hashlib    # to hash images for file names
 import os         # to manage the filesystem
 
 # key
-openai.api_key = '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'
+openai.api_key = ''   # paste your account key here for personal use. do not share your key
 
 # valid sizes
 sizes = ['256x256', '512x512', '1024x1024']
