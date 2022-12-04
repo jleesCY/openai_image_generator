@@ -68,7 +68,7 @@ for i in range(count):
     print(Fore.RESET + Fore.CYAN + str(response['data'][i]['url']))
 
 # get and validate image download querey
-print(Fore.RESET + 'Download images? (y/n)')
+print(Fore.RESET + '\nDownload images? (y/n)')
 yn = ''
 while True:
   yn = str(input(Fore.CYAN + '>> ' + Fore.YELLOW))
@@ -76,6 +76,7 @@ while True:
     print(Fore.RESET + Fore.RED + Style.BRIGHT + 'invalid entry' + Style.RESET_ALL)
     continue
   break
+print()
 
 # downlaod images if the user wanted to
 if yn == 'y':
