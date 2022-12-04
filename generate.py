@@ -65,7 +65,7 @@ print(Fore.RESET + 'Finished in ' + '[' + Fore.BLUE + str(round(end-start, 2)) +
 # print image URLs
 for i in range(count):
     print(Fore.RESET + 'Image ' + str(i + 1) + ":")
-    print(Fore.RESET + Fore.CYAN + str(response['data'][i]['url']) + '\n')
+    print(Fore.RESET + Fore.CYAN + str(response['data'][i]['url']))
 
 # get and validate image download querey
 print(Fore.RESET + 'Download images? (y/n)')
