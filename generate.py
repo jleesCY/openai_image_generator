@@ -97,4 +97,4 @@ if yn == 'y':
       handler.write(img_data)
     end = time.time()
     print(Fore.RESET + '[' + Fore.BLUE + str(round(end-start, 2)) + 's' + Fore.RESET + ']\t' + Fore.YELLOW + path + name)
-    print(Fore.RESET + Style.RESET_ALL)
+print(Fore.RESET + Style.RESET_ALL)
