@@ -76,7 +76,6 @@ while True:
     print(Fore.RESET + Fore.RED + Style.BRIGHT + 'invalid entry' + Style.RESET_ALL)
     continue
   break
-print()
 
 # downlaod images if the user wanted to
 if yn == 'y':
@@ -86,6 +85,7 @@ if yn == 'y':
       print(Fore.RED + Style.BRIGHT + 'choose a directory' + Style.RESET_ALL)
       continue
     break
+  print()
   for i in range(count):
     print(Fore.RESET + 'Downloading image ' + str(i + 1) + "...")
     start = time.time()
